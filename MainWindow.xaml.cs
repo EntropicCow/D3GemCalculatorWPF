@@ -48,5 +48,14 @@ namespace D3GemCalculatorWPF
         {
             MessageBox.Show("Diablo 3 Gem Calculator by Jose Araujo.\n Thanks to William for annoying me into porting this to WPF.", "About D3 Gem Calc WPF");
         }
+
+        private void textbox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key == Key.Enter)
+            {
+                button1_Click(sender, e);
+                e.Handled = true;
+            }
+        }
     }
 }
