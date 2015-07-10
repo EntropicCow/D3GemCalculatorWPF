@@ -6,20 +6,11 @@
         <Button x:Name="button1" Content="Calculate" HorizontalAlignment="Left" Margin="10,288,0,0" VerticalAlignment="Top" Width="75" ToolTip="Calculate gem data." Click="button1_Click"/>
         <Button x:Name="button2" Content="About" HorizontalAlignment="Left" Margin="262,288,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
         <ComboBox x:Name="combobox1" HorizontalAlignment="Left" Margin="22,33,0,0" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.5,0.5" IsReadOnly="True">
-            <ComboBoxItem Content="Chipped"/>
-            <ComboBoxItem Content="Flawed"/>
             <ComboBoxItem Content="Normal"/>
             <ComboBoxItem Content="Flawless"/>
-            <ComboBoxItem Content="Perfect"/>
-            <ComboBoxItem Content="Radiant"/>
             <ComboBoxItem Content="Square"/>
             <ComboBoxItem Content="Flawless Square"/>
-            <ComboBoxItem Content="Perfect Square"/>
-            <ComboBoxItem Content="Radiant Square"/>
             <ComboBoxItem Content="Star"/>
-            <ComboBoxItem Content="Flawless Star"/>
-            <ComboBoxItem Content="Perfect Star"/>
-            <ComboBoxItem Content="Radiant Star"/>
             <ComboBoxItem Content="Marquise"/>
             <ComboBoxItem Content="Imperial"/>
             <ComboBoxItem Content="Flawless Imperial"/>
@@ -27,20 +18,11 @@
             <ComboBoxItem Content="Flawless Royal"/>
         </ComboBox>
         <ComboBox x:Name="combobox2" HorizontalAlignment="Left" Margin="177,33,0,0" VerticalAlignment="Top" Width="150">
-            <ComboBoxItem Content="Chipped"/>
-            <ComboBoxItem Content="Flawed"/>
             <ComboBoxItem Content="Normal"/>
             <ComboBoxItem Content="Flawless"/>
-            <ComboBoxItem Content="Perfect"/>
-            <ComboBoxItem Content="Radiant"/>
             <ComboBoxItem Content="Square"/>
             <ComboBoxItem Content="Flawless Square"/>
-            <ComboBoxItem Content="Perfect Square"/>
-            <ComboBoxItem Content="Radiant Square"/>
             <ComboBoxItem Content="Star"/>
-            <ComboBoxItem Content="Flawless Star"/>
-            <ComboBoxItem Content="Perfect Star"/>
-            <ComboBoxItem Content="Radiant Star"/>
             <ComboBoxItem Content="Marquise"/>
             <ComboBoxItem Content="Imperial"/>
             <ComboBoxItem Content="Flawless Imperial"/>
